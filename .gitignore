@@ -1,0 +1,45 @@
+# API Keys and Secrets
+
+api_key_config.m
+*_key*.m
+.env
+*.env
+*.key
+*.pem
+*secret*
+*api_key*
+
+# MATLAB files to ignore
+*.asv
+*.mlapp
+*.mex*
+*.p
+*.slxc
+*.autosave
+*.backup
+
+# Simulink generated files
+slprj/
+simulink_cache/
+codegen/
+
+# Results and data (optional - commit if you want to share results)
+# 01_Tank_Simulink_Model/Results/*.mat
+# 02_AI_Tuning_Methods/Results/*.mat
+02_AI_Tuning_Methods/Results/.mat
+
+# Python files (bridge)
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
